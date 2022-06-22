@@ -1,0 +1,30 @@
+//dummy frontend
+POST http://localhost:4000/userIssue/createUserIssue
+Content-Type: application/json
+
+{
+    "firstName": "Minkii",
+    "LastName": "Sharma",
+    "EmailId": "sharma1@gmail.com",
+    "Department": "Commerce",
+    "Role": "Admin",
+    "OppurtunityType": "Internship",
+    "EligiblityCriteria":"Any one can Apply"
+}
+/*
+###
+POST 
+Content-Type: application/json
+
+{
+    "firstName": "AnkitaM",
+    "LastName": "Mishra",
+    "EmailId": "sharma1@gmail.com",
+    "Department": "Commerce",
+    "Role": "Admin",
+    "OppurtunityType": "Internship",
+    "EligiblityCriteria":"Any one can Apply"
+}
+*/
+###
+GET http://localhost:4000/userIssue/getUserIssues
